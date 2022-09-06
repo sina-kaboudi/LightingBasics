@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+H:\Unity Editors\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/Unity Projects/LightingBasics
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61532
+Successfully changed project path to: H:/Unity Projects/LightingBasics
+H:/Unity Projects/LightingBasics
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 23.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path H:/Unity Editors/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Unity Projects/LightingBasics/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'H:/Unity Editors/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Unity Editors/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'H:/Unity Editors/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/Unity Editors/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: H:/Unity Editors/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002628 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 24.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (541ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.0 MB). Loaded Objects now: 1275.
+Memory consumption went from 57.2 MB to 55.2 MB.
+Total: 1.862900 ms (FindLiveObjects: 0.059300 ms CreateObjectMapping: 0.012500 ms MarkObjects: 1.410300 ms  DeleteObjects: 0.380200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100486.029332 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLightSettings.lighting
+  artifactKey: Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLightSettings.lighting using Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4ca2f4b3daaf21c423165275b39dd9') in 0.017087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9163.949734 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight.scenetemplate
+  artifactKey: Guid(518c6d49959bde646b296ba1623748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight.scenetemplate using Guid(518c6d49959bde646b296ba1623748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'ee5b5bb87490c1ab0c557696e4839c99') in 0.117415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.830425 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight
+  artifactKey: Guid(541c5670207da004598fbd5ebdf6089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight using Guid(541c5670207da004598fbd5ebdf6089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eae6ad2c270d934bc87c2c4b8734c5d') in 0.001887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099837 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight/LightingData.asset
+  artifactKey: Guid(bdce6731e04081e47adac1ccdf8f6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight/LightingData.asset using Guid(bdce6731e04081e47adac1ccdf8f6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e03788ab668e3e01b6bc64bbb15483') in 0.009339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ceea85cd21225b546a629eb95d2d17ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight/Lightmap-0_comp_light.exr using Guid(ceea85cd21225b546a629eb95d2d17ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7e0c9128d73a4ff065aff15929afba') in 0.049915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight/ReflectionProbe-0.exr
+  artifactKey: Guid(38a4852c52ee268418a7ead96ed8b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight/ReflectionProbe-0.exr using Guid(38a4852c52ee268418a7ead96ed8b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7c8c6d5232b78abe459a6f7ed8d920') in 0.030472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.085474 seconds.
+  path: Assets/Scenes/In Progress/Shadows.unity
+  artifactKey: Guid(98f4e3b3f1ab18845928dfa38a5b11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/Shadows.unity using Guid(98f4e3b3f1ab18845928dfa38a5b11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcd0315c65c7ed18da3bcffbd4d834d') in 0.007691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1882.494451 seconds.
+  path: Assets/Models/Tank/Tank.fbx
+  artifactKey: Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tank/Tank.fbx using Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585705142b8be1604e05db36f13c09c5') in 0.103100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 606.306718 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLightSettings.lighting
+  artifactKey: Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLightSettings.lighting using Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '495a07fbf5b62443739482414e71f328') in 0.004129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.872501 seconds.
+  path: Assets/Scenes/In Progress/LightSettings.lighting
+  artifactKey: Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/LightSettings.lighting using Guid(c39c7d73a24223f47b7476c7018f1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'b5a63c046ab2fbcf07a3dad41cf971e0') in 0.007132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.497711 seconds.
+  path: Assets/Scenes/In Progress/Light
+  artifactKey: Guid(541c5670207da004598fbd5ebdf6089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/Light using Guid(541c5670207da004598fbd5ebdf6089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118440773102fedbd0237bf6a9e294d') in 0.006676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6128.123618 seconds.
+  path: Assets/Models/Tank
+  artifactKey: Guid(375742b9443f04caea9d7a2b35cd2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tank using Guid(375742b9443f04caea9d7a2b35cd2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46b356f46cb455462029db8af60c10') in 0.003385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.566669 seconds.
+  path: Assets/Scenes/In Progress/DirectionalLight.unity
+  artifactKey: Guid(97eb545ed0dd629458f38defa11f1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/DirectionalLight.unity using Guid(97eb545ed0dd629458f38defa11f1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a778b39e5e74f2fdfd8a5596b83ad553') in 0.007959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.257474 seconds.
+  path: Assets/Scenes/In Progress/PointLight.unity
+  artifactKey: Guid(fdfb72c09f76e984c9a9d14c34947ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/PointLight.unity using Guid(fdfb72c09f76e984c9a9d14c34947ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5f23c4949d7db81d31ba332dfb34ae') in 0.008508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1247.293725 seconds.
+  path: Assets/Scenes/In Progress/SpotLight.unity
+  artifactKey: Guid(7199d9539e5ce6e40862697c02d67480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In Progress/SpotLight.unity using Guid(7199d9539e5ce6e40862697c02d67480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593e58959d9186a72b081ed440df7bcd') in 0.015994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.688983 seconds.
+  path: Assets/Models/Characters/Zombunny.fbx
+  artifactKey: Guid(be66986effd141b4992d2d78be127139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Zombunny.fbx using Guid(be66986effd141b4992d2d78be127139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40676aad48fe2192ad3bf5db5d37d85f') in 0.054595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.209379 seconds.
+  path: Assets/Models/Environment/Rock02.fbx
+  artifactKey: Guid(b2cad29d26691466ba49e4e03e14b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Rock02.fbx using Guid(b2cad29d26691466ba49e4e03e14b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46350c573e9bb6c0630d7c88fa8eaa25') in 0.058665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Environment/Rock04.fbx
+  artifactKey: Guid(b65e0e526e53d4ccc8ce6cf93f5d4125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Rock04.fbx using Guid(b65e0e526e53d4ccc8ce6cf93f5d4125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f04a13579d28e0daec63d6c5a97657') in 0.038139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.730988 seconds.
+  path: Assets/Models/SciFiCorridor/HallwayDivider.fbx
+  artifactKey: Guid(80b1ef51d0d4f7e41975e06fb23629af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SciFiCorridor/HallwayDivider.fbx using Guid(80b1ef51d0d4f7e41975e06fb23629af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1078b1be72050a071df13832ee237a9') in 0.043811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/SciFiCorridor/SharedBlastDoorAFrame.fbx
+  artifactKey: Guid(f7424bf3330e0f04c90e88b8d618a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SciFiCorridor/SharedBlastDoorAFrame.fbx using Guid(f7424bf3330e0f04c90e88b8d618a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c152a920b574e1a5a662c91fec0c2d3') in 0.036997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.638226 seconds.
+  path: Assets/Prefabs/AmbientOcclusion/WedgeCanvas.prefab
+  artifactKey: Guid(67f635b00d36e42f3a501daf6d248775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AmbientOcclusion/WedgeCanvas.prefab using Guid(67f635b00d36e42f3a501daf6d248775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd59f1452666dfa6aa57a4d89b8ad9a') in 0.017097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.813203 seconds.
+  path: Assets/Prefabs/CornellBox/CornellBox.prefab
+  artifactKey: Guid(22d54001e0f3c45b68ba652f3c58c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CornellBox/CornellBox.prefab using Guid(22d54001e0f3c45b68ba652f3c58c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19baa881e78f3ef085c3b1ec334b55a') in 0.151653 seconds 

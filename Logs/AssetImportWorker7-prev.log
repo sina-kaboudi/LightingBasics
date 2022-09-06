@@ -1,0 +1,953 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+H:\Unity Editors\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+H:/Unity Projects/LightingBasics
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+58475
+Successfully changed project path to: H:/Unity Projects/LightingBasics
+H:/Unity Projects/LightingBasics
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 34.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path H:/Unity Editors/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Unity Projects/LightingBasics/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'H:/Unity Editors/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Unity Editors/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'H:/Unity Editors/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/Unity Editors/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: H:/Unity Editors/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003289 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 50.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.0 MB). Loaded Objects now: 1275.
+Memory consumption went from 57.5 MB to 55.5 MB.
+Total: 2.154200 ms (FindLiveObjects: 0.082300 ms CreateObjectMapping: 0.013600 ms MarkObjects: 1.601100 ms  DeleteObjects: 0.456300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100072.998034 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete.unity
+  artifactKey: Guid(d958ac26a644cbd4584c2e849e3d8acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete.unity using Guid(d958ac26a644cbd4584c2e849e3d8acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0024bf5b1ddc1e61d1fda0a7b328c0d1') in 0.084892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx
+  artifactKey: Guid(622a87b3379022740be7e2efea3ebd33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx using Guid(622a87b3379022740be7e2efea3ebd33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e2c124acc6e4f9f4b91ace104480fb') in 0.199748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+  artifactKey: Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf using Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6224960444d6bb066b75f42c0f00a3a8') in 0.036312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png
+  artifactKey: Guid(a336ccf90791f9841b7e680c010d1e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png using Guid(a336ccf90791f9841b7e680c010d1e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20a6041e9b3c4b6569dd9dbfef88de8b') in 0.050590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx
+  artifactKey: Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx using Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cbde24eb2bd7adaa52c82c55cc2e98a') in 0.019394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Sci-Fi Vehicles/Vehicle_1/Textures/Vehicle_1_S.png
+  artifactKey: Guid(9e27b1646506f5c43b3f8732386e5f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Sci-Fi Vehicles/Vehicle_1/Textures/Vehicle_1_S.png using Guid(9e27b1646506f5c43b3f8732386e5f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4ab370d3d1d8e672311e662634fe42a') in 0.020968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/DO_NOT_WORK_IN_VR.txt
+  artifactKey: Guid(d7077f5297a2049489eb2880778a6a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/DO_NOT_WORK_IN_VR.txt using Guid(d7077f5297a2049489eb2880778a6a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ba1d503df03846570c6912db4b682fe') in 0.009217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Profiles/Complete/Version2/Complete/DesaturatedProfileComplete.asset
+  artifactKey: Guid(086051a4ccbbb46488ea041950cb6250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Profiles/Complete/Version2/Complete/DesaturatedProfileComplete.asset using Guid(086051a4ccbbb46488ea041950cb6250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e31e778d11e295bbe7f7d6453d63ec71') in 0.033189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+  artifactKey: Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png using Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c52c1d24357b57e8126fd4724cb08ed7') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ab6a683a6c6649c42d0ce89cee872a0') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002265 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21ba5725b5859ecb3f2b821aa1ccc501') in 0.023081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+  artifactKey: Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png using Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '841c4cc4528277ebd57543aba10a0297') in 0.017698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab
+  artifactKey: Guid(b321aed21e0872743a175d8dbbe12ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab using Guid(b321aed21e0872743a175d8dbbe12ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd2046eb549a0e5a0df86a64a7586c4') in 0.011322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Profiles/Complete/Version2/Complete/ProfileWithArtifactsComplete.asset
+  artifactKey: Guid(04298f4edb310304d9be2c6f365bcdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Profiles/Complete/Version2/Complete/ProfileWithArtifactsComplete.asset using Guid(04298f4edb310304d9be2c6f365bcdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43abec1fab353920da7f67ff3bd82f3a') in 0.009339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/MayanTemple/Standard/wall_02.fbx
+  artifactKey: Guid(50e035a2521ba492e9f750bd7b73c2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/MayanTemple/Standard/wall_02.fbx using Guid(50e035a2521ba492e9f750bd7b73c2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdedfd38207595db46d9682dc6f27d1b') in 0.064447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Start/DirectLighting/LightExplorerStart.unity
+  artifactKey: Guid(a31dbc57ad5d5423c935d3c8c0bd395f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/DirectLighting/LightExplorerStart.unity using Guid(a31dbc57ad5d5423c935d3c8c0bd395f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41a1db8c22a302c17e77634c7d70bc29') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/SciFiCorridor/Shared/SharedBlastDoorAJambLeft.fbx
+  artifactKey: Guid(33c44af6d6055534c9a9eb91e600adf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/SciFiCorridor/Shared/SharedBlastDoorAJambLeft.fbx using Guid(33c44af6d6055534c9a9eb91e600adf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75fb8bab67956fd574e27d512ad66fa2') in 0.019738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt
+  artifactKey: Guid(bc9b000e9b8028247bd816e159382646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt using Guid(bc9b000e9b8028247bd816e159382646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '643e659a69934278c9ff467c2a26b2df') in 0.008246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e8c18dcccc82863478674a5f6c97a061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/Lightmap-1_comp_dir.png using Guid(e8c18dcccc82863478674a5f6c97a061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6b9ac1307799c2ccec2120ac49341a1') in 0.027681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/LightProbesStart/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2d6b91c731d9d1445b5963740210d2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/LightProbesStart/Lightmap-0_comp_dir.png using Guid(2d6b91c731d9d1445b5963740210d2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd12e22c74921ac7f4c5d6429ec195b4') in 0.018875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a2f41b4e636ad0f469a391656ec942ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-0_comp_dir.png using Guid(a2f41b4e636ad0f469a391656ec942ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '970d79337dbc429f3e995979fd077e2d') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3d687af92a9d3bc438e03a3514b4d055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/Lightmap-1_comp_light.exr using Guid(3d687af92a9d3bc438e03a3514b4d055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17a397c1cf7fe420a80c7feb20870ede') in 0.020300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/FinishingTouchesStart/ReflectionProbe-0.exr
+  artifactKey: Guid(bedd1979910394d4d9c2974ccd2b1dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/FinishingTouchesStart/ReflectionProbe-0.exr using Guid(bedd1979910394d4d9c2974ccd2b1dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f70c8483cf472857a67ce3009e4d65c4') in 0.019017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/Lightmap-0_comp_dir.png
+  artifactKey: Guid(244a8a131fd6ac74892aa4aafedcfb3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/Lightmap-0_comp_dir.png using Guid(244a8a131fd6ac74892aa4aafedcfb3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '330d1abf14096efc66dc8ea8ea3506db') in 0.020355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/EnvironmentReflectionsComplete/LightingData.asset
+  artifactKey: Guid(1087673da39b24378bdbd685840689ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/EnvironmentReflectionsComplete/LightingData.asset using Guid(1087673da39b24378bdbd685840689ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcb820a1794ebb1e2224a8a0231a01ca') in 0.006232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/ImageBasedLightingComplete/LightingData.asset
+  artifactKey: Guid(d953c64be05154de8ba7205e57c2e247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/ImageBasedLightingComplete/LightingData.asset using Guid(d953c64be05154de8ba7205e57c2e247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be2c344df6b069e1f520f1041199b42f') in 0.007373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/AmbientOcclusionComplete/Lightmap-0_comp_light.exr
+  artifactKey: Guid(572feadbd395b442fb1c3d23b94d8e43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/AmbientOcclusionComplete/Lightmap-0_comp_light.exr using Guid(572feadbd395b442fb1c3d23b94d8e43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d559a6a9490bf67683fe200a52e2fe6') in 0.018922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/LightProbesStart/Lightmap-3_comp_light.exr
+  artifactKey: Guid(f5bf9283cc3e90348b79c1d8306096ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/LightProbesStart/Lightmap-3_comp_light.exr using Guid(f5bf9283cc3e90348b79c1d8306096ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31a2df0342f530b51c33f024c183f8b8') in 0.021339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedModeStart/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9380ad333dbd9a842893c6adef315da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedModeStart/Lightmap-0_comp_light.exr using Guid(9380ad333dbd9a842893c6adef315da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd766acdea30a231e35bf41e1c283b4da') in 0.024760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-2_comp_dir.png
+  artifactKey: Guid(d8cec8888003d6244ba7d4e55ba1a79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-2_comp_dir.png using Guid(d8cec8888003d6244ba7d4e55ba1a79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99e924c6499c616511ed7fab89e22946') in 0.018938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/ReflectionProbe-0.exr
+  artifactKey: Guid(e9ea8d9256aa74a4abf48db974dbeddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/ReflectionProbesStart/ReflectionProbe-0.exr using Guid(e9ea8d9256aa74a4abf48db974dbeddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02eb57c169391de1f7fe949741d3e0bc') in 0.017104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/LayersAndMasksStart/Lightmap-1_comp_light.exr
+  artifactKey: Guid(69d883c7cff5fc3449efac23860b9c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/LayersAndMasksStart/Lightmap-1_comp_light.exr using Guid(69d883c7cff5fc3449efac23860b9c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd44f422feb18ac50a33ae7d045c99670') in 0.022182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/ScreenSpaceReflectionsStart/Lightmap-3_comp_dir.png
+  artifactKey: Guid(442d7d8251b22514abe7895e7f469ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/ScreenSpaceReflectionsStart/Lightmap-3_comp_dir.png using Guid(442d7d8251b22514abe7895e7f469ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1055bf03c9a5c5892cde2a55c3c610c6') in 0.019731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/ReflectionProbe-0.exr
+  artifactKey: Guid(f2f8953e58ac879478ea1bfb71a82f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/ReflectionProbe-0.exr using Guid(f2f8953e58ac879478ea1bfb71a82f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41bcc4c68b71dc3bc157f671841897a7') in 0.015294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedModeStart/LightingData.asset
+  artifactKey: Guid(b967f95f55426294585da5c11f780cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedModeStart/LightingData.asset using Guid(b967f95f55426294585da5c11f780cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b57c093d3d416d784bcc9fae7208635b') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/PostProcessingStart/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e98dc35de59974dd2b7ac40b79a1d0ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/PostProcessingStart/Lightmap-0_comp_dir.png using Guid(e98dc35de59974dd2b7ac40b79a1d0ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd40bdd61d4b80def6d54fdd38ebc23c5') in 0.017460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/LightingData.asset
+  artifactKey: Guid(6bd94fa95108ba249876620134087692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedLightingStart/LightingData.asset using Guid(6bd94fa95108ba249876620134087692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e6c9e83e78e62a7fa24d2bdec15aed3') in 0.009237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/FinishingTouchesStart/LightingData.asset
+  artifactKey: Guid(b1444232404c9e849bfaadb62f8584f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/FinishingTouchesStart/LightingData.asset using Guid(b1444232404c9e849bfaadb62f8584f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d5434ca0c03288a0b454c47dda2ac0a') in 0.007748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/PostProcessingV2Start/Lightmap-0_comp_dir.png
+  artifactKey: Guid(649a65f117c666440963b5835412fabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/PostProcessingV2Start/Lightmap-0_comp_dir.png using Guid(649a65f117c666440963b5835412fabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb709e655916443ea661376c27a059b') in 0.016810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MasksAndLayersStart/Lightmap-2_comp_light.exr
+  artifactKey: Guid(e206534e4b27eb04fa3ffd8bb814b9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MasksAndLayersStart/Lightmap-2_comp_light.exr using Guid(e206534e4b27eb04fa3ffd8bb814b9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2518b715ce4474e5cd70245830b10219') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MixedModeStart/Lightmap-1_comp_dir.png
+  artifactKey: Guid(a2fc1bbfd38d5e8409a35a5c4586fa4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MixedModeStart/Lightmap-1_comp_dir.png using Guid(a2fc1bbfd38d5e8409a35a5c4586fa4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8ffa8f24fe47f45a404992c9d9d5c36') in 0.018569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/EmissiveMaterialsStart/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9bd7a0bd23414403a849a2b4d7cba030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/EmissiveMaterialsStart/Lightmap-0_comp_light.exr using Guid(9bd7a0bd23414403a849a2b4d7cba030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbcbb70eb09416b3bddd2de446a010fc') in 0.014850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/LayersAndMasksStart/Lightmap-2_comp_light.exr
+  artifactKey: Guid(e3028046ebb75b54dae15c5b90702cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/LayersAndMasksStart/Lightmap-2_comp_light.exr using Guid(e3028046ebb75b54dae15c5b90702cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc869cb288b578dad0ec9771de29089b') in 0.015793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/MasksAndLayersStart/LightingData.asset
+  artifactKey: Guid(a7ef954500368ef49968a81bb33dc184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/MasksAndLayersStart/LightingData.asset using Guid(a7ef954500368ef49968a81bb33dc184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e899a2ee2bf301d5c20ef751fa95b983') in 0.008517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-1_comp_light.exr
+  artifactKey: Guid(0f664941707b4be429111ceeaa7a1cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Start/SciFiCorridor/FPSCameraStart/Lightmap-1_comp_light.exr using Guid(0f664941707b4be429111ceeaa7a1cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f55aaba81299d6def2994f5920cc2fe4') in 0.020081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGIComplete.unity
+  artifactKey: Guid(02391c5d5fe104597a1853079e0f985d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGIComplete.unity using Guid(02391c5d5fe104597a1853079e0f985d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52d1daae6eb48b2eb0fbb3fd87828989') in 0.008948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGISettingsComplete/Lightmap-4_comp_light.exr
+  artifactKey: Guid(1d747c3b14e0d42c58959aefbd7475cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGISettingsComplete/Lightmap-4_comp_light.exr using Guid(1d747c3b14e0d42c58959aefbd7475cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7e509d91a5ed852e4aab674506fb899') in 0.015601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f989747c27b604d4e919b20ee1c77eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/Lightmap-2_comp_light.exr using Guid(f989747c27b604d4e919b20ee1c77eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8bda2ef5dd694bacd56bf3e12af6283') in 0.041805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/LightingData.asset
+  artifactKey: Guid(8cf80315ee236f54f9446499e3704fce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/LightingData.asset using Guid(8cf80315ee236f54f9446499e3704fce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74bbe293892e2c3112fde1d27731ba9e') in 0.007380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-4_comp_light.exr
+  artifactKey: Guid(c3218670c8387924c9ce62c3092b4eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-4_comp_light.exr using Guid(c3218670c8387924c9ce62c3092b4eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca718a2601b7d97843356b6d336b4b3e') in 0.034312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/ReflectionProbe-0.exr
+  artifactKey: Guid(2dd4965e0bd40a5478da591915c4d839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/ReflectionProbe-0.exr using Guid(2dd4965e0bd40a5478da591915c4d839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '682b39053da90d7ab9cfb801c2eb1423') in 0.017712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/ScreenSpaceReflections/LightingData.asset
+  artifactKey: Guid(f8833a5f69a698d4480ec2df7e2787b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/ScreenSpaceReflections/LightingData.asset using Guid(f8833a5f69a698d4480ec2df7e2787b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b182567d19edca369023062ff7210a28') in 0.006959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/EmissiveMaterialsComplete/LightingData.asset
+  artifactKey: Guid(291d16ce29cedea49965641a4d50fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/EmissiveMaterialsComplete/LightingData.asset using Guid(291d16ce29cedea49965641a4d50fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00b1c642d89a37554dd730e28f384b47') in 0.006809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/ReflectionProbe-0.exr
+  artifactKey: Guid(b40e9bdbba41f45d68732a148702003f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/ReflectionProbe-0.exr using Guid(b40e9bdbba41f45d68732a148702003f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b337c222022adab55b6517f5949e6bf6') in 0.013882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/FPSCameraComplete/Lightmap-2_comp_light.exr
+  artifactKey: Guid(a331510f265272742b8c45130c0d6a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/FPSCameraComplete/Lightmap-2_comp_light.exr using Guid(a331510f265272742b8c45130c0d6a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3223d5520bc7a4a5a5166b6314210183') in 0.022332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingV2Complete/Lightmap-0_comp_dir.png
+  artifactKey: Guid(446d0a1154e443748bc5c1bbf009c9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingV2Complete/Lightmap-0_comp_dir.png using Guid(446d0a1154e443748bc5c1bbf009c9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a54f38f983667ed6d93f6fb53ed791e4') in 0.016051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/Lightmap-2_comp_dir.png
+  artifactKey: Guid(3c0b0006f703fd64c8fa019b96a89462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/Lightmap-2_comp_dir.png using Guid(3c0b0006f703fd64c8fa019b96a89462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27a405ad6bf42631c130671394edb8c3') in 0.015284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-6_comp_dir.png
+  artifactKey: Guid(47631925a442bbc449febb3e56a090c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-6_comp_dir.png using Guid(47631925a442bbc449febb3e56a090c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '775cdfc33ce36859c4a0e3f415f48c1f') in 0.018095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/ReflectionProbe-0.exr
+  artifactKey: Guid(cf9dee7a6c0b42744a14aade96766fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/ReflectionProbe-0.exr using Guid(cf9dee7a6c0b42744a14aade96766fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4209a9543a70de3d0a863086fff7c74f') in 0.015364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/SkyboxesComplete/LightingData.asset
+  artifactKey: Guid(9d6afc81ed6a77f44b33a762937752d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/SkyboxesComplete/LightingData.asset using Guid(9d6afc81ed6a77f44b33a762937752d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5c28ebd18ea98460dc74ed235265bca') in 0.007000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f50ff2bbd3bc84e83ac31bf8dacab1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/Lightmap-1_comp_light.exr using Guid(f50ff2bbd3bc84e83ac31bf8dacab1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10f02696fc83387949f6145fb9ac36a6') in 0.016270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+  artifactKey: Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat using Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd662cd436bcaa4fb54a262158e9021cd') in 0.011765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/Lightmap-0_comp_dir.png
+  artifactKey: Guid(fa0248f87b763ac4e96af3853e7b693b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/FinishingTouchesComplete/Lightmap-0_comp_dir.png using Guid(fa0248f87b763ac4e96af3853e7b693b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50bd14c31bf86550838b325fd358d621') in 0.015204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d5f43984259f1468fb9462904f9d8fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/Lightmap-0_comp_light.exr using Guid(d5f43984259f1468fb9462904f9d8fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2c430c3b6c375b8964cb9493b056b05') in 0.016414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e0f0f21f1fb364d7384c08db46d64d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-0_comp_dir.png using Guid(e0f0f21f1fb364d7384c08db46d64d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '841a65c0fdcf34c84a8c081f50879416') in 0.019834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/EmissiveMaterialsComplete/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d2f8e040c1b8cc741995dfa357f3531f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/EmissiveMaterialsComplete/Lightmap-0_comp_dir.png using Guid(d2f8e040c1b8cc741995dfa357f3531f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dc18e5123f782bcf3c464c7c0076904') in 0.014992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/LightingData.asset
+  artifactKey: Guid(4a8707427851345f28648cf03c0c9886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessingComplete/LightingData.asset using Guid(4a8707427851345f28648cf03c0c9886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\buildslave\unity\build\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 379]
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6669cd3398718d8ee1e2aa5672bf1e5b') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/ReflectionProbe-1.exr
+  artifactKey: Guid(08a801a38f779fc4fae1933edc103ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/ReflectionProbe-1.exr using Guid(08a801a38f779fc4fae1933edc103ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1038cefc82f5e6aa47bd29e8b276ab9') in 0.023089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-3_comp_light.exr
+  artifactKey: Guid(a80b2d8c485a68849ba8de452a252ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MixedLightingComplete/Lightmap-3_comp_light.exr using Guid(a80b2d8c485a68849ba8de452a252ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faf02a66b0573460b83a85864a8d2cfb') in 0.026520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-0_comp_light.exr
+  artifactKey: Guid(75be84100191c48b5990a9a4d138c02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-0_comp_light.exr using Guid(75be84100191c48b5990a9a4d138c02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c65eee2a1dec9a55e0bebfd5b0c21bb7') in 0.018174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-2_comp_light.exr
+  artifactKey: Guid(128c51cecb001b141b03ecba86940df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/MasksAndLayersComplete/Lightmap-2_comp_light.exr using Guid(128c51cecb001b141b03ecba86940df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c1abe62e4e4fcc7472e3e4c7018f3c') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGISettingsComplete/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f26c1b94f62b34d668518cffe2aca95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/GlobalIllumination/RealtimeGISettingsComplete/Lightmap-1_comp_light.exr using Guid(f26c1b94f62b34d668518cffe2aca95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff2442caa352e4d9897e413452a4780') in 0.015833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/Lightmap-0_comp_dir.png
+  artifactKey: Guid(0f473cc951cb2d74f9d006934665ad69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_CompletedScenes/SciFiCorridor/PostProcessVolumesComplete/Lightmap-0_comp_dir.png using Guid(0f473cc951cb2d74f9d006934665ad69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54895bb99747797f80fec94f497f20c6') in 0.030064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002904 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs
+  artifactKey: Guid(8c5335f0882fe4d478883cc8c58ce906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs using Guid(8c5335f0882fe4d478883cc8c58ce906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac6747fcdf6d819577844060642fe148') in 0.010372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(6af82a665aaf44c41874a383a4225c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga using Guid(6af82a665aaf44c41874a383a4225c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e10339d3c390eb96c88dc4142aaf1de') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader
+  artifactKey: Guid(01a668cc78047034a8a0c5ca2d24c6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader using Guid(01a668cc78047034a8a0c5ca2d24c6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab13b2e8ea925ca148a3cdbcc33b0418') in 0.012838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
+  artifactKey: Guid(5d69df9d9d11e49d110086ba44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat using Guid(5d69df9d9d11e49d110086ba44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '413a83fbc88f88b5d57bf3070b18740c') in 0.010277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga using Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abf9c2f59a03798828842417cee75613') in 0.020508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+  artifactKey: Guid(521b611700410be45810047f0a74e899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs using Guid(521b611700410be45810047f0a74e899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53060e80121b9634c6d843be461b9984') in 0.007412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+  artifactKey: Guid(33f51eb21122c4ca6a199d561065ae30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs using Guid(33f51eb21122c4ca6a199d561065ae30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc9546edddcb76c80e07a753e16b3f92') in 0.007414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png
+  artifactKey: Guid(4a056241e2722dc46a7262a8e7073fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png using Guid(4a056241e2722dc46a7262a8e7073fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da235b1f626457c76a7127c11369b261') in 0.016852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2753ef66ed5b5d8ca8fbc6d1391c069') in 0.019740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Textures/Shadow.psd
+  artifactKey: Guid(68386fc9897223346a683105b4dc1662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/Projectors/Textures/Shadow.psd using Guid(68386fc9897223346a683105b4dc1662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa10d4e68c0f24bd5122389fab84b8d9') in 0.018374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+  artifactKey: Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga using Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ca9fa3f2819a6d5662e4a7a03e597d8') in 0.014376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dfacb7b90b7452afdb4f28f5f80f6df') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga
+  artifactKey: Guid(2c1c27ec8c3b75a4c80a795adc9ca788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga using Guid(2c1c27ec8c3b75a4c80a795adc9ca788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0656cf0a8b86cde77973f1c9eb91339c') in 0.018328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd
+  artifactKey: Guid(b995d4bd9d11078d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd using Guid(b995d4bd9d11078d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e64282885afac69437b7906a3d74925') in 0.013160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader
+  artifactKey: Guid(48dca5b99d113b8d11006bab44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader using Guid(48dca5b99d113b8d11006bab44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1461b36f71f99d73ffc5495573c1e52a') in 0.010704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+  artifactKey: Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx using Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f33f555c7501fd2c8910a29d2628fb6d') in 0.094551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga using Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a911d143e5d2857e93e032f934507f0') in 0.020121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga
+  artifactKey: Guid(ab89d7e9dbd9462458ecef029ee60f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga using Guid(ab89d7e9dbd9462458ecef029ee60f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a76312a2d37e442e8fffd8ca4ae3f6a6') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
+  artifactKey: Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat using Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebb80ae9e5e212205477851cfcd2a37d') in 0.009677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(41232aac50fb25a40b390906295f9aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga using Guid(41232aac50fb25a40b390906295f9aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e88159d99ae8c7b3beec37267ba431b') in 0.018130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305f4cc01a7c7abe5e5cc470ddce8410') in 0.324069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+  artifactKey: Guid(a2f8221d501f8a84790559f173f106b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat using Guid(a2f8221d501f8a84790559f173f106b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a64bad9f978ef6d84f50de43bab1789') in 0.157061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
+  artifactKey: Guid(d68104aea3d1d084385a1acc7c896247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat using Guid(d68104aea3d1d084385a1acc7c896247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca95e8e9360abf48c3f598214491c350') in 0.071436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Background/Meshes/V09/Materials/Sand.1.mat
+  artifactKey: Guid(cfe34431bb513f540a95d5fd074cb7f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Background/Meshes/V09/Materials/Sand.1.mat using Guid(cfe34431bb513f540a95d5fd074cb7f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8f29ae56c360233509ff1cbb32d7caf') in 0.006440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea8a21aae1c2927c12d63e697bae7a8a') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+  artifactKey: Guid(8403d3349d112ba4d000be1be39e7c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd using Guid(8403d3349d112ba4d000be1be39e7c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5c71abdf568f5cb2ceef98de46feae') in 0.009120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs
+  artifactKey: Guid(a1da353243062479a9b31c85074a796b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs using Guid(a1da353243062479a9b31c85074a796b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a33fd0554ab555ed7e8ccbc7e40d7679') in 0.004573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat
+  artifactKey: Guid(1cb3f0c5c8637644dae1816a674f7e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat using Guid(1cb3f0c5c8637644dae1816a674f7e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e989895144104223fb01078218b7774e') in 0.077209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab
+  artifactKey: Guid(9485b0c79d11e2e4d0007da98d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab using Guid(9485b0c79d11e2e4d0007da98d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fe1a8ae2b9380539f09113107501534') in 0.006360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav
+  artifactKey: Guid(5a9383dda6cabc047b7a297602e93eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav using Guid(5a9383dda6cabc047b7a297602e93eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32b90155eba65a35e76c9ca47585a5a9') in 0.023328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
+  artifactKey: Guid(21543d2b66928224f8a9536ff3811682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab using Guid(21543d2b66928224f8a9536ff3811682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '255d354e0a331d3e0aacc6a9d824a01e') in 0.005635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b59f68af86b0180f5df39b0007250145') in 0.006808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71904ccc55f7063b50237c57013087c3') in 0.005509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+  artifactKey: Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm using Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bdf38ccff24efa9837516a1b9ab8780') in 0.014448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs
+  artifactKey: Guid(2a91e8dd37cdd41efb4859b65aced7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs using Guid(2a91e8dd37cdd41efb4859b65aced7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e376ac6cff5b50e95e9184f42976148b') in 0.005254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Background/Meshes/V09/Materials/Sand.mat
+  artifactKey: Guid(1d7efd4b44c2b03468b73e57d147f610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Background/Meshes/V09/Materials/Sand.mat using Guid(1d7efd4b44c2b03468b73e57d147f610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec1c8ff256d9968be4fcda3c3abf13d4') in 0.025671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+  artifactKey: Guid(c9de3ae2361df6c469caeb2024321cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga using Guid(c9de3ae2361df6c469caeb2024321cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '281286de6a6b1bf39cd786eb3b7f405d') in 0.009040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+  artifactKey: Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png using Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43094a01aa3a2367bded371afbe4dd72') in 0.031175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.752575 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
+  artifactKey: Guid(5c6bda52f548c164381f24c22067e446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat using Guid(5c6bda52f548c164381f24c22067e446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ff4dfe403dc4536c9a49fb25c63a0a') in 0.076070 seconds 
